@@ -30,7 +30,7 @@ export const InteractiveComponent = ({troll:[{a, b, c}, {aAction, bAction}]}) =>
 }
 ```
 
-## For exmample:
+## For example:
 
 ```jsx
 import React from 'react';
