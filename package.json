@@ -1,12 +1,12 @@
 {
   "name": "react-troll",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "build/index.js",
   "files": [
     "src/index.js"
   ],
   "peerDependencies": {
-    "react": "^16.6.0"
+    "react": "^17.0.0-rc.2"
   },
   "scripts": {
     "build": "webpack --mode production"
@@ -18,10 +18,10 @@
   "author": "Peter Vivo <pengeszikra@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Pengeszikra/react-slash/issues"
+    "url": "https://github.com/Pengeszikra/react-troll/issues"
   },
-  "homepage": "https://github.com/Pengeszikra/react-slash#readme",
-  "description": "Tiny useReducer / jsx element naming oriented react helper library.",
+  "homepage": "https://github.com/Pengeszikra/react-troll#readme",
+  "description": "react useReducer organizator",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
@@ -34,6 +34,6 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "react": "^16.6.0"
+    "react": "^17.0.0-rc.2"
   }
 }
