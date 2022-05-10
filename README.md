@@ -56,7 +56,7 @@ export const
   REMOVE_ITEM = action('remove-item')
 ;
 
-export fooInit = {
+export const fooInit = {
   items: [];
 }
 
