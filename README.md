@@ -5,10 +5,36 @@ react useReducer organizator
 
 *"the troll eated dispatch"*
 
-React best state manegement hook is useReducer, without this helper library you can use very well.
-After application complexity groving in time, this troll woll be handy. Because give a simple controll to you!
+## Benefit
+My real world experience with react-troll is show the real difference between multiple useState, and useReducer, which is the core idea of this library.
 
-## troll : deconstruction
+In ```chrome devtool``` you can check, why this method is much more standard.
+
+### *whitout useReducer*
+![whitout useReducer](./doc/without-useReducer.png)
+
+### *with useReducer*
+![with useReducer](./doc/troll-useReduce.png)
+
+## Typescript
+Already I makeed few react typescript ```example``` project, about react-troll in real action. 
+
+Example assigments 
+  - [Trivia Challenge](https://github.com/Pengeszikra/trivia-chellenge-assignment)
+  - [SVG drawing](https://github.com/Pengeszikra/svg-draw-assignment)
+  - [Life Game](https://github.com/Pengeszikra/live-game-assignment) *under construct*
+
+
+
+*So I will make the typescript version of react-troll*
+
+> under this line all information is a little bit out dated.
+
+## base idea of troll
+React best state manegement hook is useReducer, without this helper library you can use very well.
+After application complexity groving in time, this troll woll be handy. Because give a simple control to you!
+
+## troll : deconstruction - optional
 
 As other hooks use power of array decunstruction, react-troll also give naming to your hand:
 because useTroll return with state and setOfActions - action creator with dispatch - array:
@@ -93,5 +119,3 @@ export const FooApplication = ({troll, title, ...props}) => {
   )
 };
 ```
-
-*coming: react-troll-saga*
