@@ -1,5 +1,8 @@
-# react-troll
-react useReducer organizator
+# react-troll [decapricated]
+react useReducer organizator,
+but this problem will be solved much easier and elegant way by:
+[react-state-factory](https://www.npmjs.com/package/react-state-factory)
+bacuse that solution give much cleaner code, works with any version of react / nextjs and get lot of help from VS-Code editor ( or any modern edior which give TS type hints ) so forgett the ~~Troll~~!
 
 ![react-troll-logo](./doc/react-troll-logo-small.png)
 
